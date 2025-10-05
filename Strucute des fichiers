@@ -1,0 +1,9 @@
+/project
+│
+├─ bot.py            # Bot Discord
+├─ app.py            # Serveur Flask / WebSocket
+├─ templates/
+│   └─ index.html    # Page web du chat
+├─ static/
+│   └─ script.js     # JS pour WebSocket
+└─ requirements.txt
