@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Global Chat</title>
+</head>
+<body>
+    <div id="chat"></div>
+    <input id="message" placeholder="Tape ton message"/>
+    <button onclick="sendMessage()">Envoyer</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
